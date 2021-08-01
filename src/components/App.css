@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(42deg, #C4CCC6 14%, #636363 64%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(40deg, #8C8A8C 14%, #FFFFFF 64%);
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
+
+.mainCont {
+    /* background-image: url("../blog.jpg"); */
+    background-color: #4BBF6B;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.App {
+    width: fit-content;
+    margin: 20px;
+
+}
