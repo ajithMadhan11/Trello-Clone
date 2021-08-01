@@ -12,9 +12,17 @@ const CardConatainer = styled.div`
   margin-bottom: 4px;
   overflow: auto;
 `;
+const IconCont = styled.div`
+  display: none;
+`;
+
 const CardAlign = styled.div`
   display: flex;
   justify-content: space-between;
+  &:hover {
+    ${IconCont} {
+      display:inline
+    }
 `;
 
 const Trellocard = (props) => {
@@ -37,13 +45,15 @@ const Trellocard = (props) => {
             <CardContent>
               <CardAlign>
                 <Typography gutterBottom>{text}</Typography>
-                <Icon
-                  color="secondary"
-                  fontSize="small"
-                  onMouseDown={deleteCard}
-                >
-                  delete
-                </Icon>
+                <IconCont>
+                  <Icon
+                    color="secondary"
+                    fontSize="small"
+                    onMouseDown={deleteCard}
+                  >
+                    delete
+                  </Icon>
+                </IconCont>
               </CardAlign>
             </CardContent>
           </Card>

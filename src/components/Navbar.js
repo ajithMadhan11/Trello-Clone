@@ -3,21 +3,17 @@ import styled from "styled-components";
 
 const NavbarCont = styled.div`
   background: rgba(75, 191, 107, 0.8);
-
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-
   padding: 20px;
   width: inherit;
   color: #ffffff;
-  // font-size: 30px;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
 `;
 const NavbarCont2 = styled.div`
   display: flex;
-  // justify-content: space-between;
 `;
 
 const Navbar = () => {
