@@ -2,8 +2,11 @@ A Trello Clone - Built with React, Redux,and Material UI
 
 
 ## Demo
-[Trello -Clone](https://trello-clone-mvp.netlify.app/)  
+[Trello -Clone](https://trello-clone-mvp.netlify.app/) 
 
+## SCREENSHOT
+
+[![frontscrren](https://i.postimg.cc/SKJZdYBB/Screen-Capture-select-area-20210831093107.png)](https://trello-clone-mvp.netlify.app/)
 
 ## ⚡ Features
 - Create and Delete lists
